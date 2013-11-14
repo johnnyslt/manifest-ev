@@ -428,4 +428,11 @@
   <project groups="notdefault,tools" name="platform/tools/studio/cloud" path="tools/studio/cloud" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="notdefault,tools" name="platform/tools/swt" path="tools/swt" remote="aosp" revision="refs/tags/android-4.4_r1" />
 
+   <project path="device/htc/shooteru" name="android_device_htc_shooteru" groups="ev-aosp" />
+   <project path="device/htc/shooter" name="android_device_htc_shooter" groups="ev-aosp" />
+   <project path="device/htc/shooter-common" name="android_device_htc_shooter-common" groups="ev-aosp" />
+   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" groups="ev-aosp" />
+   <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" groups="ev-aosp" />
+   <project path="vendor/htc" name="android_vendor_htc" groups="ev-aosp" />
+
 </manifest>
